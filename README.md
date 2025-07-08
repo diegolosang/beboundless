@@ -3,7 +3,7 @@
 **在WSL中安装Boundless的步骤：**
 
 1. **操作系统要求：**
-    - 确保您的WSL发行版是 **Ubuntu 22.04 LTS**。如果不是，建议安装或更新到此版本。
+    - 确保是 **Ubuntu 22.04 LTS**。
 2. **克隆Boundless仓库：**
     - 在您的WSL终端中执行以下命令：
         
@@ -13,12 +13,6 @@
         git clone https://github.com/boundless-xyz/boundless
         cd boundless
         git checkout release-0.12
-        ```
-        
-        ```jsx
-        wget https://github.com/boundless-xyz/boundless/archive/refs/tags/v0.12.0.tar.gz
-        tar -xzf v0.12.0.tar.gz
-        cd boundless-0.12.0
         ```
         
 3. **安装依赖：**
