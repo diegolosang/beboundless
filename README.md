@@ -94,7 +94,7 @@
         
     - 使用 `just broker logs` 检查日志。
 9. **停止Broker：**
-    - 要停止broker：Bash
+    - 要停止broker：
         
         ```jsx
         just broker down
